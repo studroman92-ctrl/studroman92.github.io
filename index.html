@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Свадебное приглашение Александры и Михаила">
+  <title>Александра & Михаил — свадебное приглашение</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="hero"><div class="frame"></div><header><span>Александра & Михаил</span><span>14.08.2026</span></header><div class="hero-content"><p class="eyebrow">С любовью приглашаем</p><h1>На нашу<br><i>свадьбу</i></h1><p>День, который хочется разделить с самыми близкими</p><a class="round" href="#details">↓</a></div><span class="petal one"></span><span class="petal two"></span><span class="petal three"></span></section>
+    <section class="intro" id="details"><p class="eyebrow">Сохраните дату</p><h2>14 августа<br><i>2026</i></h2><p>В этот августовский вечер мы станем семьёй. Будем счастливы, если вы проведёте этот момент вместе с нами.</p><div class="monogram">А <b>×</b> М</div></section>
+    <section class="place"><img src="og.png" alt="Цветочное оформление свадьбы"><div><p class="eyebrow">Место встречи</p><h2>Ресторан<br><i>Орхидея</i></h2><p>Москва, Берсеневская набережная, 6, стр. 3</p><a href="https://yandex.ru/maps/?text=Москва%2C%20Берсеневская%20набережная%2C%206" target="_blank">Открыть карту ↗</a></div></section>
+    <section class="program"><p class="eyebrow">Программа вечера</p><h2>Будем <i>вместе</i></h2><div class="schedule"><article><time>15:30</time><div><h3>Сбор гостей</h3><p>Летняя веранда ресторана «Орхидея»</p></div></article><article><time>16:00</time><div><h3>Церемония</h3><p>Скажем друг другу «да» среди цветов и близких</p></div></article><article><time>17:00</time><div><h3>Ужин и праздник</h3><p>Тёплые тосты, музыка, танцы и много любви</p></div></article></div></section>
+    <section class="dress"><p class="eyebrow">Дресс-код</p><h2>Пастельный<br><i>сад</i></h2><p>Будем рады образам в мягких природных оттенках. Пусть это будет ваш самый красивый летний вечер.</p><div class="swatches"><i></i><i></i><i></i><i></i><i></i></div></section>
+    <section class="rsvp"><p class="eyebrow">Пожалуйста, ответьте</p><h2>Вы будете<br><i>с нами?</i></h2><form id="answer"><label>Ваше имя<input required placeholder="Как к вам обращаться?"></label><label>Ваш ответ<select required><option value="">Выберите вариант</option><option>С радостью приду</option><option>К сожалению, не смогу</option></select></label><button>Отправить ответ</button></form><p id="thanks" hidden>Спасибо! Мы очень ждём этой встречи.</p><small>Просим ответить до 20 июля</small></section>
+  </main><footer>Александра & Михаил · 2026</footer><script>document.getElementById('answer').addEventListener('submit',e=>{e.preventDefault();e.currentTarget.hidden=true;document.getElementById('thanks').hidden=false})</script>
+</body></html>
